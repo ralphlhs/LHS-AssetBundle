@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Packed Assets
+  m_EditorClassIdentifier: 
+  m_GroupName: Packed Assets
+  m_GUID: 509ef3550440a4fd2a09da58becf605c
+  m_SerializeEntries:
+  - m_GUID: 6479e9fdbcfa443f69d8333748eda2a6
+    m_Address: Assets/Image/gameover.jpg
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 3474fdae122054477ae1347920106ab1, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: b5973be7c543841b793eb8ff357a0003, type: 2}
+    - {fileID: 11400000, guid: 85ea17c118dd54b238a13c4fdad2f12b, type: 2}
