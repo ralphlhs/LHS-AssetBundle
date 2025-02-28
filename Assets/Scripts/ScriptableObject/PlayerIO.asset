@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 0}
   m_Name: PlayerIO
   m_EditorClassIdentifier: Assembly-CSharp::Player
-  HP: 8
+  HP: 30
   name: 

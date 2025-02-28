@@ -13,7 +13,7 @@ public class CameraControll : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void LateUpdate()
     {
         Vector3 cameravec = player.transform.position + new Vector3(0, 8f, -10.6f);
         transform.position = Vector3.Lerp(transform.position, cameravec, Time.deltaTime * speed);

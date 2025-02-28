@@ -1,5 +1,5 @@
 using UnityEngine;
-
+//가까우면 멈추고 멀면 따라오는 코드 
 public class Monster : Character
 {
     public float monster_speed;

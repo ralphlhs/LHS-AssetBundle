@@ -1,11 +1,11 @@
 using UnityEngine;
 
-[CreateAssetMenu(fileName ="InfoOfplayer", menuName = "ScriptableObj/PlayerItem", order = 0)]
+[CreateAssetMenu(fileName ="InfoOfplayer", menuName = "ScriptableObj/GameItem", order = 0)]
 public class LHS_Scrp_Obj : ScriptableObject
 {
     [Header("퀘스트 정보")]
-    public float damage;
-    public float cooltime;
+    public int apple = 0;
+    public int meat = 0;
 
     public string animationName;
     public Sprite icon;
@@ -17,18 +17,18 @@ public class LHS_Scrp_Obj : ScriptableObject
     //Player player = new Player(20, "아군");
 }
 
-[CreateAssetMenu(fileName = "EnemyIO", menuName = "ScriptableObj/에너미아이템")]
+[CreateAssetMenu(fileName = "EnemyIO", menuName = "ScriptableObj/돼지 아이템")]
 public class Enemy : ScriptableObject
 {
     public Enemy(int HP, string name) {
         this.HP = HP;
         this.name = name;
     }
-    public int HP;
+    public int HP = 10;
     public string name;
 }
 
-[CreateAssetMenu(fileName = "PlayerIO", menuName = "ScriptableObj/플레이아이템")]
+[CreateAssetMenu(fileName = "PlayerIO", menuName = "ScriptableObj/주인공 아이템")]
 public class Player : ScriptableObject
 {
     public Player(int HP, string name)
@@ -36,6 +36,48 @@ public class Player : ScriptableObject
         this.HP = HP;
         this.name = name;
     }
-    public int HP = 20;
+    public int HP = 100;
     public string name;
 }
+
+
+//[CreateAssetMenu(fileName = "InfoOfplayer", menuName = "ScriptableObj/PlayerItem", order = 0)]
+//public class LHS_Scrp_Obj : ScriptableObject
+//{
+//    [Header("퀘스트 정보")]
+//    public float damage;
+//    public float cooltime;
+
+//    public string animationName;
+//    public Sprite icon;
+
+//    [Header("각각 플레이어들")]
+//    public Enemy enemy;
+//    public Player player;
+//    //Enemy enemy = new Enemy(10, "적군");
+//    //Player player = new Player(20, "아군");
+//}
+
+//[CreateAssetMenu(fileName = "EnemyIO", menuName = "ScriptableObj/에너미아이템")]
+//public class Enemy : ScriptableObject
+//{
+//    public Enemy(int HP, string name)
+//    {
+//        this.HP = HP;
+//        this.name = name;
+//    }
+//    public int HP;
+//    public string name;
+//}
+
+//[CreateAssetMenu(fileName = "PlayerIO", menuName = "ScriptableObj/플레이어아이템")]
+//public class Player : ScriptableObject
+//{
+//    public Player(int HP, string name)
+//    {
+//        this.HP = HP;
+//        this.name = name;
+//    }
+//    public int HP = 20;
+//    public string name;
+//}

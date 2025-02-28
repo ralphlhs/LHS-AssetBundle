@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 0}
   m_Name: EnemyIO
   m_EditorClassIdentifier: Assembly-CSharp::Enemy
-  HP: 0
+  HP: 100
   name: 
